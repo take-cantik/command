@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "$(basename ${0})"
+echo "$1"
+echo "$2"
+echo "$3"
+
+while getopts ab: OPT; do
+  case $OPT in
+    a ) FLG_A="TRUE" ;;
+    b ) FLG_B="TRUE" ; VALUE_B="$OPTARG" ;;
+  esac
+done
+
