@@ -1,9 +1,5 @@
 #!/bin/sh
 
-echo "ahiahi is word used when it doesn't matter what you put in"
-echo " like hoge fuga foo bar"
-echo "Proken member often use this"
-
 # echo "$(basename ${0})"
 # echo "$1"
 # echo "$2"
@@ -15,4 +11,3 @@ echo "Proken member often use this"
 #     b ) FLG_B="TRUE" ; VALUE_B="$OPTARG" ;;
 #   esac
 # done
-
