@@ -1,0 +1,25 @@
+#!/bin/sh
+
+if [ -z "$1" ]
+then
+  echo "You can see take_cantik's infomation"
+  echo "Enter the infomation you want to know in the first argument"
+elif [ "$1" = "name" ]
+then
+  echo "name: Takeru Miki"
+elif [ "$1" = "belongs" ]
+then
+  echo "Belongs: Electronic Systems Engineering Course"
+elif [ "$1" = "birthplace" ]
+then
+  echo "Birthplace: Omuta in Fukuoka"
+elif [ "$1" = "circle" ]
+then
+  echo "Circle: Proken and Polaris(Futsal)"
+elif [ "$1" = "hobbys" ]
+then
+  echo "Hobbys: Soccer, Anime, Games, Idols, Reading, etc."
+else
+  echo "I don't have that infomation yet"
+fi
+
